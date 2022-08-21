@@ -4494,7 +4494,7 @@ li {
 
   .container-12 {
     position: static;
-    display: block;
+    display: inline;
     margin-top: auto;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
