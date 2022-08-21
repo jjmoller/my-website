@@ -381,7 +381,7 @@ li {
   -webkit-text-fill-color: inherit;
 }
 
-.b-section{
+section-banner.b-section{
   background-image: linear-gradient(349deg, #abc1ff 15%, #cc9efe 83%);
 }
 
