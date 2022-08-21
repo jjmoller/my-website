@@ -4275,20 +4275,19 @@ li {
 
   .hero-image-2 {
     position: relative;
-    left: 0px;
-    width: 100%;
+    max-width: 60%
     margin-right: auto;
     margin-left: auto;
     text-align: left;
   }
 
   .hero-image-2.watch {
-    max-width: 80%;
+    max-width: 60%;
   }
 
   .hero-image-2.logo {
     width: auto;
-    max-width: 70vw;
+    max-width: 70%;
   }
 
   .project-heading {
