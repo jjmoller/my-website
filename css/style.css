@@ -3658,6 +3658,7 @@ li {
   }
 
   .project-image-mask {
+    margin: auto;
     margin-right: 0px;
     margin-left: 0px;
     -webkit-box-ordinal-group: 0;
