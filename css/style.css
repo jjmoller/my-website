@@ -3330,6 +3330,11 @@ li {
     display: -ms-flexbox;
     display: flex;
   }
+  
+  .navbar-container {
+    max-width: 90%;
+    display: inline;
+  }
 
   .container-hero-left {
     position: relative;
