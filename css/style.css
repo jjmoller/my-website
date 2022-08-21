@@ -1812,14 +1812,6 @@ section-banner.b-section{
   text-align: center;
 }
 
-.section-banner {
-  height: 600px;
-  margin-top: auto;
-  margin-bottom: auto;
-  background-color: #fff;
-  background-image: linear-gradient(349deg, #abc1ff 13%, #cc9efe 83%);
-}
-
 .container-14 {
   display: -webkit-box;
   display: -webkit-flex;
