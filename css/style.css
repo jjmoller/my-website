@@ -3330,11 +3330,6 @@ li {
     display: -ms-flexbox;
     display: flex;
   }
-  
-  .navbar-container {
-    max-width: 90%;
-    display: inline;
-  }
 
   .container-hero-left {
     position: relative;
@@ -3663,7 +3658,6 @@ li {
   }
 
   .project-image-mask {
-    margin: auto;
     margin-right: 0px;
     margin-left: 0px;
     -webkit-box-ordinal-group: 0;
@@ -3926,11 +3920,6 @@ li {
     align-items: center;
   }
 
-  .navbar-container {
-    max-width: 90%;
-    display: inline;
-  }
-  
   .container.container-3 {
     top: auto;
   }
@@ -4152,6 +4141,10 @@ li {
     bottom: auto;
   }
 
+  .menu-button.home-button.dark {
+    color: #fff;
+  }
+
   .heading-4 {
     position: static;
     left: 0px;
@@ -4276,7 +4269,8 @@ li {
   }
 
   .project-image-mask {
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
@@ -4285,18 +4279,20 @@ li {
 
   .hero-image-2 {
     position: relative;
-    max-width: 60%;
-    margin: auto;
+    left: 0px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     text-align: left;
   }
 
   .hero-image-2.watch {
-    max-width: 60%;
+    max-width: 80%;
   }
 
   .hero-image-2.logo {
     width: auto;
-    max-width: 70%;
+    max-width: 70vw;
   }
 
   .project-heading {
@@ -4467,6 +4463,34 @@ li {
     align-items: center;
   }
 
+  .navbar-two.projects {
+    display: inline-block;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .navbar-container {
+    display: block;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+  }
+
   .logo-mask {
     width: 15%;
     height: auto;
@@ -4494,7 +4518,7 @@ li {
 
   .container-12 {
     position: static;
-    display: inline;
+    display: block;
     margin-top: auto;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
