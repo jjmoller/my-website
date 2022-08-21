@@ -2407,7 +2407,7 @@ li {
   }
 
   .menu-button.w--current:visited {
-    color: inherit;
+    color: none;
   }
 
   .menu-button.home-button {
