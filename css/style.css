@@ -3921,6 +3921,11 @@ li {
     align-items: center;
   }
 
+  .navbar-container {
+    max-width: 90%;
+    display: inline;
+  }
+  
   .container.container-3 {
     top: auto;
   }
