@@ -4265,8 +4265,7 @@ li {
   }
 
   .project-image-mask {
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
