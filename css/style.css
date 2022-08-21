@@ -4275,9 +4275,8 @@ li {
 
   .hero-image-2 {
     position: relative;
-    max-width: 60%
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 60%;
+    margin: auto;
     text-align: left;
   }
 
