@@ -1101,7 +1101,7 @@ li {
 
 .container-2.rentme {
   position: static;
-  max-width: 49%;
+  width: 49%;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
