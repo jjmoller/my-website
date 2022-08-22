@@ -4277,19 +4277,17 @@ li {
   .hero-image-2 {
     position: relative;
     left: 0px;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: left;
+    max-width: 70%;
+    margin: auto;
   }
 
   .hero-image-2.watch {
-    max-width: 80%;
+    max-width: 70%;
   }
 
   .hero-image-2.logo {
     width: auto;
-    max-width: 70vw;
+    max-width: 70%;
   }
 
   .project-heading {
