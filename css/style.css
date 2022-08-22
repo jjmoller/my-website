@@ -1637,20 +1637,11 @@ li {
 }
 
 .nav-menu-4 {
-  position: absolute;
-  left: auto;
-  top: 0%;
-  right: 0%;
-  bottom: auto;
-  overflow: visible;
-  height: 83%;
-  padding-top: 25px;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-  background-color: #272727;
-  color: #333;
-  -o-object-fit: fill;
-  object-fit: fill;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  grid-column-gap: 20px;
 }
 
 .nav-menu-4.light {
