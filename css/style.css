@@ -1010,7 +1010,6 @@ li {
 .hero-image-2.watch {
   left: auto;
   top: auto;
-  width: 90%;
   max-width: 80%;
   text-align: left;
 }
@@ -3671,8 +3670,7 @@ li {
     position: relative;
     width: auto;
     max-width: 60%;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
   }
 
   .div-block-description {
@@ -4283,6 +4281,7 @@ li {
 
   .hero-image-2.watch {
     max-width: 70%;
+    margin: auto;
   }
 
   .hero-image-2.logo {
