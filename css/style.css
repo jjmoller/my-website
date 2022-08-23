@@ -1539,8 +1539,8 @@ li {
   background-color: hsla(0, 0%, 100%, 0);
 }
 
-.navbar-two.cape-arcade {
-  background-color: hsla(0, 0%, 100%, 0);
+.background-dark {
+  background-color: hsl(0, 0%, 16%);
 }
 
 .navbar-container {
@@ -4471,6 +4471,10 @@ li {
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+  }
+
+  .background-dark{
+    position: sticky;
   }
 
   .navbar-container {
