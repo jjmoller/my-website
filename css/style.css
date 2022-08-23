@@ -1539,7 +1539,10 @@ li {
   background-color: hsla(0, 0%, 100%, 0);
 }
 
-.background-dark {
+.navbar-two.projects-dark {
+  position: fixed;
+  z-index: 4;
+  padding-top: 40px;
   background-color: hsl(0, 0%, 16%);
 }
 
@@ -4472,9 +4475,20 @@ li {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
-
-  .background-dark{
-    position: sticky;
+  .navbar-two.projects-dark {
+    display: inline-block;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 
   .navbar-container {
