@@ -3295,6 +3295,7 @@ li {
     -ms-flex-order: 1;
     order: 1;
   }
+  
 }
 
 @media screen and (max-width: 767px) {
@@ -4004,7 +4005,7 @@ li {
   }
 
   .section.hero.rentme {
-    min-height: 40%;
+    min-height: 60vh;
     padding-top: 40px;
     padding-bottom: 0px;
   }
@@ -4558,6 +4559,7 @@ li {
   }
 
   .menu-button-2 {
+    color: white;
     margin-right: auto;
     margin-left: auto;
     float: right;
