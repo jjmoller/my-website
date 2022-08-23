@@ -3101,6 +3101,9 @@ li {
   .navbar-two.projects {
     padding-top: 20px;
   }
+  .navbar-two.projects-dark {
+    padding-top: 20px;
+  }
 
   .navbar-container {
     max-width: 90%;
@@ -4001,7 +4004,7 @@ li {
   }
 
   .section.hero.rentme {
-    min-height: 50vh;
+    min-height: 40%;
     padding-top: 40px;
     padding-bottom: 0px;
   }
