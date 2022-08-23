@@ -3103,6 +3103,7 @@ li {
   }
   .navbar-two.projects-dark {
     padding-top: 20px;
+    background-color: transparent;
   }
 
   .navbar-container {
@@ -4005,7 +4006,7 @@ li {
   }
 
   .section.hero.rentme {
-    min-height: 60vh;
+    min-height: 70vh;
     padding-top: 40px;
     padding-bottom: 0px;
   }
