@@ -2575,7 +2575,7 @@ li {
     color: #000;
   }
 
-  .paragraph-five ul{
+  .paragraph-five ul li{
     font-size: 16px;
     text-align: center;
   }
