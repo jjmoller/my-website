@@ -432,7 +432,7 @@ li {
   font-family: Montserrat, sans-serif;
 }
 
-.gallery-grid.home {
+.project-cards {
   width: auto;
   max-width: 80%;
   margin-top: auto;
@@ -2396,7 +2396,7 @@ li {
     transform: perspective(500px);
   }
 
-  .gallery-grid.home {
+  .project-cards {
     width: auto;
     max-width: 70%;
   }
@@ -2764,7 +2764,7 @@ li {
     text-align: left;
   }
 
-  .gallery-grid.home {
+  .project-cards {
     width: 90%;
     padding-top: 0%;
     padding-bottom: 0%;
@@ -4082,7 +4082,7 @@ li {
     padding-top: 0%;
   }
 
-  .gallery-grid.home {
+  .project-cards {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
@@ -4595,6 +4595,11 @@ li {
 
   .image-35 {
     max-width: 80%;
+  }
+
+  .image-23 {
+    width: 80%;
+    height: auto;
   }
 
   .persona-container {
