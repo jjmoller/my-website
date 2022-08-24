@@ -29,6 +29,11 @@ li {
   line-height: 20px;
 }
 
+.paragraph-five ul li{
+  color: #292929;
+  font-size: 16px;
+}
+
 .container {
   position: relative;
   display: -webkit-box;
@@ -1311,6 +1316,11 @@ li {
 
 .column-8 {
   left: 60px;
+}
+
+.paragraph-five ul li{
+  font-size: 16px;
+  text-align: center;
 }
 
 .heading-personas {
