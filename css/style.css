@@ -388,7 +388,6 @@ li {
   padding-bottom: 50px;
   margin: auto;
 }
-}
 
 .gallery-grid {
   position: relative;
@@ -2576,6 +2575,11 @@ li {
     color: #000;
   }
 
+  .paragraph-five ul{
+    font-size: 16px;
+    text-align: center;
+  }
+
   .section-banner {
     display: flex;
     background-image: url('../images/ben-neale-zpxKdH_xNSI-unsplash.jpg');
@@ -4506,6 +4510,7 @@ li {
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
+    float: left;
   }
 
   .logo-mask {
