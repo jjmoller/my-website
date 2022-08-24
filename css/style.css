@@ -4520,7 +4520,6 @@ li {
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
-    float: left;
   }
 
   .logo-mask {
