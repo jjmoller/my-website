@@ -4321,7 +4321,7 @@ li {
     display: -ms-flexbox;
     display: flex;
     height: auto;
-    max-width: 80%;
+    max-width: 100%;
     margin-top: auto;
     margin-bottom: auto;
     padding: 20px 0px;
@@ -4332,7 +4332,7 @@ li {
   }
 
   .container-2.rentme {
-    max-width: 80%;
+    width: 90%;
   }
 
   .heading-15 {
