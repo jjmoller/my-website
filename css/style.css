@@ -1136,6 +1136,7 @@ li {
 }
 
 .persona-heading{
+  width: 100%;
   display: inline;
   text-align: center;
   font-weight: 700;
