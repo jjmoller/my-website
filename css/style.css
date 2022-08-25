@@ -1136,9 +1136,10 @@ li {
 }
 
 .persona-heading{
+  display: inline;
   text-align: center;
   font-weight: 700;
-  font: black;
+  color: black;
 }
 
 .heading-15 {
