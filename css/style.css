@@ -2088,7 +2088,7 @@ li {
 }
 
 .image-46 {
-  position: relative;
+  position: static;
   display: inline-block;
   max-width: 6%;
   padding-right: 0px;
