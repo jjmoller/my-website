@@ -2121,7 +2121,7 @@ input:active {
 }
 
 .image-46 {
-  position: static;
+  position: relative;
   display: inline-block;
   max-width: 6%;
   padding-right: 0px;
