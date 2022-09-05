@@ -29,7 +29,7 @@ li {
   line-height: 20px;
 }
 
-.testimonial-card.rentme.detail ul li{
+.testimonial-card.rentme.detail ul li {
   color: #292929;
   font-size: 16px;
 }
@@ -68,7 +68,40 @@ li {
   object-fit: fill;
 }
 
-.container-hero-left {
+<<<<<<< Updated upstream=======.search-bar {
+  display: flex;
+  width: 50vw;
+  height: 40px;
+  align-items: center;
+  justify-content: right;
+}
+
+input {
+  padding: 10px;
+  height: inherit;
+  width: 50%;
+  border-radius: 4px;
+  border-style: none;
+  border-color: #afafaf;
+  background-color: #ececec;
+}
+
+input:active {
+  border-style: none;
+}
+
+.search-submit-button {
+  background-image: url(https://www.pngarea.com/pngm/109/1164446_searchicon-png-search-icon-png-download.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  min-width: 60px;
+  height: inherit;
+  margin-left: 20px;
+  border-radius: 4px;
+}
+
+>>>>>>>Stashed changes .container-hero-left {
   position: absolute;
   left: 3%;
   top: 0%;
@@ -189,7 +222,7 @@ li {
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#fff), to(#cfd5e5));
+  background-image: gradient(linear, left bottom, left top, from(#fff), to(#cfd5e5));
   background-image: linear-gradient(0deg, #fff, #cfd5e5);
   -webkit-perspective: 1000px;
   perspective: 1000px;
@@ -224,7 +257,7 @@ li {
   align-items: center;
   border: 0.5px solid #e4e4e4;
   background-color: #fff;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 87, 87, 0.1)), to(#fff));
+  background-image: gradient(linear, left bottom, left top, from(rgba(255, 87, 87, 0.1)), to(#fff));
   background-image: linear-gradient(0deg, rgba(255, 87, 87, 0.1), #fff);
 }
 
@@ -241,7 +274,7 @@ li {
 }
 
 .section.hero.rentme {
-  min-height: 70vh;
+  min-height: 50vh;
   background-color: hsla(0, 0%, 100%, 0);
   background-image: linear-gradient(129deg, rgba(131, 188, 255, 0.8), rgba(164, 148, 254, 0.7) 40%, rgba(162, 151, 254, 0.7) 58%, rgba(199, 87, 253, 0.7));
 }
@@ -385,7 +418,7 @@ li {
   -webkit-text-fill-color: inherit;
 }
 
-.section-banner.b-section{
+.section-banner.b-section {
   background-image: linear-gradient(349deg, #abc1ff 15%, #cc9efe 83%);
   height: auto;
   min-height: 40vh;
@@ -1135,7 +1168,7 @@ li {
   align-items: flex-start;
 }
 
-.persona-heading{
+.persona-heading {
   width: 100%;
   display: inline;
   text-align: center;
@@ -1326,7 +1359,7 @@ li {
   left: 60px;
 }
 
-.paragraph-five ul li{
+.paragraph-five ul li {
   font-size: 16px;
   text-align: center;
 }
@@ -1557,7 +1590,7 @@ li {
 }
 
 .navbar-two.projects-dark {
-  position: fixed;
+  position: sticky;
   z-index: 4;
   padding-top: 40px;
   background-color: hsl(0, 0%, 16%);
@@ -2593,7 +2626,7 @@ li {
     color: #000;
   }
 
-  .paragraph-five ul li{
+  .paragraph-five ul li {
     font-size: 16px;
     text-align: center;
   }
@@ -3123,6 +3156,7 @@ li {
   .navbar-two.projects {
     padding-top: 20px;
   }
+
   .navbar-two.projects-dark {
     padding-top: 20px;
     background-color: transparent;
@@ -3318,7 +3352,7 @@ li {
     -ms-flex-order: 1;
     order: 1;
   }
-  
+
 }
 
 @media screen and (max-width: 767px) {
@@ -4502,6 +4536,7 @@ li {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
+
   .navbar-two.projects-dark {
     display: inline-block;
     -webkit-box-orient: horizontal;
