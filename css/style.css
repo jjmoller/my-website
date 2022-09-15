@@ -29,7 +29,7 @@ li {
   line-height: 20px;
 }
 
-.testimonial-card.rentme.detail ul li{
+.testimonial-card.rentme.detail ul li {
   color: #292929;
   font-size: 16px;
 }
@@ -196,6 +196,20 @@ li {
   background-clip: border-box;
   -webkit-text-fill-color: inherit;
 }
+
+
+.betwixt-wireframes-row{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.betwixt-wireframes-column{
+  max-width: 50%;
+  padding: 4px 4px;
+}
+
 
 .section.hero.projects {
   display: -webkit-box;
@@ -385,7 +399,7 @@ li {
   -webkit-text-fill-color: inherit;
 }
 
-.section-banner.b-section{
+.section-banner.b-section {
   background-image: linear-gradient(349deg, #abc1ff 15%, #cc9efe 83%);
   height: auto;
   min-height: 40vh;
@@ -393,6 +407,7 @@ li {
   padding-bottom: 50px;
   margin: auto;
 }
+
 
 .gallery-grid {
   position: relative;
@@ -1135,7 +1150,7 @@ li {
   align-items: flex-start;
 }
 
-.persona-heading{
+.persona-heading {
   width: 100%;
   display: inline;
   text-align: center;
@@ -1326,7 +1341,7 @@ li {
   left: 60px;
 }
 
-.paragraph-five ul li{
+.paragraph-five ul li {
   font-size: 16px;
   text-align: center;
 }
@@ -2593,7 +2608,7 @@ li {
     color: #000;
   }
 
-  .paragraph-five ul li{
+  .paragraph-five ul li {
     font-size: 16px;
     text-align: center;
   }
@@ -3123,6 +3138,7 @@ li {
   .navbar-two.projects {
     padding-top: 20px;
   }
+
   .navbar-two.projects-dark {
     padding-top: 20px;
     background-color: transparent;
@@ -3318,7 +3334,7 @@ li {
     -ms-flex-order: 1;
     order: 1;
   }
-  
+
 }
 
 @media screen and (max-width: 767px) {
@@ -4502,6 +4518,7 @@ li {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
+
   .navbar-two.projects-dark {
     display: inline-block;
     -webkit-box-orient: horizontal;
