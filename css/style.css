@@ -201,12 +201,22 @@ li {
 .betwixt-wireframes-row{
   margin-top: 10px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
+@media screen and (max-width: 700px){
+  .betwixt-wireframes-row{
+    flex-direction: column;
+  }
+}
+  
 .betwixt-wireframes-column{
-  max-width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+}
+.betwixt-wireframes-column > img {
+  width: 100%;
   padding: 4px 4px;
 }
 
