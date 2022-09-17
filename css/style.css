@@ -1043,6 +1043,12 @@ li {
   text-align: left;
 }
 
+.watch {
+  left: auto;
+  top: auto;
+  max-width: 70%;
+}
+
 .hero-image-2.logo {
   top: auto;
   width: 70%;
