@@ -911,6 +911,7 @@ li {
 }
 
 .heading-six {
+  color: #1b1b1b;
   width: auto;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -1836,6 +1837,7 @@ li {
   line-height: 1.6;
   font-weight: 400;
   white-space: normal;
+  max-width: 90%;
 }
 
 .paragraph-five.rentme {
@@ -2487,7 +2489,7 @@ li {
 
   .paragraph-6 {
     padding-top: 20px;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .container-2 {
@@ -2617,6 +2619,7 @@ li {
 
   .paragraph-five {
     font-size: 16px;
+    max-width: 90%;
   }
 
   .heading-21 {
@@ -3060,7 +3063,9 @@ li {
 
   .paragraph-6 {
     width: auto;
-    max-width: 80%;
+    max-width: 90%;
+    text-align: center;
+    font-size: 14px;
   }
 
   .container-2 {
@@ -3422,6 +3427,10 @@ li {
     margin-bottom: 0px;
   }
 
+
+  .section.light.wf-section{
+    min-height: 500px;
+  }
   .section.hero {
     display: -webkit-box;
     display: -webkit-flex;
@@ -4364,7 +4373,7 @@ li {
 
   .paragraph-6 {
     width: auto;
-    min-width: 100%;
+    min-width: 90%;
     text-align: center;
   }
 
