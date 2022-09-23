@@ -202,6 +202,13 @@ li {
   margin-top: 10px;
   display: flex;
 }
+.betwixt-wireframes-row.mobile {
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:flex-start
+}
 
 @media screen and (max-width: 700px) {
   .betwixt-wireframes-row {
@@ -1348,6 +1355,16 @@ li {
   max-width: 110%;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.image-14{
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto;
+}
+
+.image-15{
+  max-width: 25%;
+  height: auto;
 }
 
 .slide-nav-2 {
