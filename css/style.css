@@ -214,6 +214,12 @@ li {
   .betwixt-wireframes-row {
     flex-direction: column;
   }
+  .betwixt-wireframes-row.mobile {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .betwixt-wireframes-column {
@@ -1365,6 +1371,12 @@ li {
 .image-15{
   max-width: 25%;
   height: auto;
+}
+@media screen and (max-width: 700px) {
+  .image-15{
+    max-width: 50%;
+    height: auto;
+  }
 }
 
 .slide-nav-2 {
