@@ -938,7 +938,7 @@ li {
   margin-bottom: 20px;
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 .column {
@@ -1376,6 +1376,11 @@ li {
 
 .column-8 {
   left: 60px;
+}
+
+.paragraph-five .card{
+  font-size: 16px;
+  text-align: center;
 }
 
 .paragraph-five ul li {
