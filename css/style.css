@@ -1862,12 +1862,12 @@ li {
 
 .paragraph-five {
   font-family: 'Open Sans', sans-serif;
-  color: #646464;
-  font-size: 14px;
-  line-height: 1.6;
-  font-weight: 400;
-  white-space: normal;
-  max-width: 90%;
+    color: #646464;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 450;
+    white-space: normal;
+    text-align: justify;
 }
 
 .paragraph-five.rentme {
