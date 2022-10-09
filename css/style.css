@@ -222,11 +222,11 @@ li {
   flex-wrap: wrap;
   height: auto;
   align-items:flex-start;
+  gap: 4px;
 }
 
 .betwixt-wireframes-column>img {
   flex: 1;
-  padding: 4px 4px;
   height: auto;
 }
 
