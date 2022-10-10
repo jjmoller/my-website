@@ -202,7 +202,7 @@ li {
   margin-top: 10px;
   display: flex;
   margin-bottom: 20px;
-  gap: 4px;s
+  gap: 4px;
 }
 .betwixt-wireframes-row.mobile {
   display: flex;
@@ -223,6 +223,7 @@ li {
   flex-wrap: wrap;
   height: auto;
   align-items:flex-start;
+  gap: 4px;
 }
 
 .betwixt-wireframes-column>img {
