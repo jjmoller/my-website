@@ -1126,6 +1126,7 @@ li {
   font-weight: 400;
   text-align: left;
   text-decoration: none;
+  line-height: 1.5;
 }
 
 .container-2 {
@@ -1869,6 +1870,14 @@ li {
     text-align: justify;
 }
 
+.paragraph-five.index{
+  text-align: left;
+}
+
+.paragraph-five.cursive{
+  margin-bottom: 20px;
+  }
+
 .paragraph-five.rentme {
   color: #d8d8d8;
 }
@@ -2518,7 +2527,7 @@ li {
 
   .paragraph-6 {
     padding-top: 20px;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .container-2 {
@@ -3026,9 +3035,6 @@ li {
     font-size: 12px;
   }
 
-  .heading-six {
-    margin-top: 0px;
-  }
 
   .flex-container {
     max-height: none;
@@ -3084,8 +3090,7 @@ li {
   .paragraph-6 {
     width: auto;
     max-width: 90%;
-    text-align: center;
-    font-size: 14px;
+    text-align: justify;
   }
 
   .container-2 {
@@ -3287,6 +3292,7 @@ li {
   .icon-5 {
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
+    color: #1b1b1b;
   }
 
   .icon-5:hover {
@@ -3553,6 +3559,10 @@ li {
   .heading-two.project {
     top: 40px;
     font-size: 20px;
+  }
+
+  .heading-six.secondary{
+    margin-top: 40px;
   }
 
   .div-block {
@@ -4361,6 +4371,14 @@ li {
     height: auto;
   }
 
+  .cape-arcade-logo{
+    max-width: 72%;
+  }
+
+  .heading-two.project{
+    font-size: 14px;
+  }
+
   .flex-container {
     max-width: none;
     padding-right: 10px;
@@ -4407,12 +4425,6 @@ li {
     left: auto;
     max-width: none;
     margin-top: 20px;
-    text-align: center;
-  }
-
-  .paragraph-6 {
-    width: auto;
-    min-width: 90%;
     text-align: center;
   }
 
@@ -4679,9 +4691,19 @@ li {
   }
 
   .paragraph-five {
-    text-align: center;
+    text-align: justify;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .paragraph-five.index{
+    text-align: justify;
+  }
+
+  .paragraph-five.cursive{
+  margin-bottom: 20px;
+  text-align: center;
   }
 
   .image-35 {
