@@ -803,7 +803,7 @@ a.link{
   display: -ms-flexbox;
   display: flex;
   height: 100%;
-  #margin: auto;
+  margin: auto;
   padding-top: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1877,6 +1877,7 @@ a.link{
 
 .paragraph-five.index{
   text-align: left;
+  font-size: 14px;
 }
 
 .paragraph-five.cursive{
